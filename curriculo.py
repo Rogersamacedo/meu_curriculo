@@ -1,11 +1,11 @@
 import streamlit as st
 
-# Configuração da página (opcional, mas melhora o visual)
+# Configuração da página
 st.set_page_config(page_title="Currículo - Rogério Sá de Macedo", page_icon="📄")
 
 # --- CABEÇALHO ---
 st.title("Rogério Sá de Macedo")
-col1, col2 = st.columns([2, 1])
+col1, col2 = st.columns(2)
 
 with col1:
     st.markdown("📍 Ribeirão Preto - SP")
@@ -41,20 +41,31 @@ st.write("""
 # --- EXPERIÊNCIA PROFISSIONAL ---
 st.subheader("💼 Experiência Profissional")
 
+# --- PUC-Rio ---
 st.markdown("### **Instituto ECOA – PUC-Rio**")
 st.caption("Técnico Residente em Análise de Dados | 2025 – Atual")
 st.write("""
-- Tratamento e análise de dados.
-- Desenvolvimento de dashboards e visualizações.
-- Aplicação de técnicas analíticas.
+- Tratamento e análise de dados para geração de insights.
+- Desenvolvimento de dashboards e visualizações dinâmicas.
+- Aplicação de técnicas analíticas para solução de problemas complexos.
 """)
 
+# --- SIMUS TECNOLOGIA ---
+st.markdown("### **Simus Tecnologia Ltda**")
+st.caption("Analista Fiscal SR | Janeiro de 2021 a Maio de 2023")
+st.write("""
+- Suporte especializado ao cliente em software fiscal (Windows/Visual Basic).
+- Responsável pela instalação, configuração e parametrização do sistema.
+- Condução de treinamentos técnicos das funcionalidades do software para clientes finais.
+""")
+
+# --- SOCIN ---
 st.markdown("### **SOCIN – Soluções Comerciais Integradas**")
 st.caption("Analista de Service Desk")
 st.write("""
 - Suporte técnico em ambiente Linux e Java.
 - Implantação e parametrização de sistemas.
-- Participação na migração fiscal nacional (ECF → NFC-e).
+- Participação estratégica na migração fiscal nacional (ECF → NFC-e).
 """)
 
 # --- FORMAÇÃO ACADÊMICA ---
@@ -68,7 +79,7 @@ st.write("- **Graduação em Administração** – Concluído")
 st.subheader("📜 Certificações")
 st.write("""
 - Oracle Cloud Infrastructure Foundations Associate
-- Google Education – Gemini AI for Students (até 2029)
+- Google Education – Gemini AI for Students (válido até 2029)
 - Artificial Intelligence Fundamentals – IBM
 - Cloud Aplicada – Venturus
 - Residência em Análise de Dados – PUC-Rio
