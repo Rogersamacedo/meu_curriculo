@@ -12,7 +12,7 @@ with col1:
     st.markdown("📞 +55 (16) 9 9786-3346")
 with col2:
     st.markdown("📧 [rogersamacedo@hotmail.com](mailto:rogersamacedo@hotmail.com)")
-    st.markdown("🔗 [LinkedIn](https://linkedin.com)")
+    st.markdown("🔗 [LinkedIn](https://www.linkedin.com/in/rog%C3%A9rio-s%C3%A1-de-macedo-11201229/)")
 
 st.divider()
 
